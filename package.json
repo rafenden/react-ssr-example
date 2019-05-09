@@ -9,7 +9,7 @@
     "start": "node index.js",
     "pack": "webpack --config webpack.config.js",
     "babel": "babel src -d views",
-    "build": "yarn pack && yarn babel"
+    "build": "yarn run pack && yarn run babel"
   },
   "dependencies": {
     "express": "^4.16.3",

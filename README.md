@@ -5,5 +5,5 @@ Based on https://medium.freecodecamp.org/server-side-rendering-your-react-app-in
 ## Setup
 ```
 yarn
-yarn build && yarn start
+yarn run build && yarn run start
 ```
