@@ -4,7 +4,6 @@ Based on https://medium.freecodecamp.org/server-side-rendering-your-react-app-in
 
 ## Setup
 ```
-$ npm run install
-$ npm run build
-$ npm run start
+yarn
+yarn build && yarn start
 ```

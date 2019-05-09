@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "8.15.1",
+    "node": "8.15.1"
   },
   "scripts": {
     "start": "node index.js",
     "pack": "webpack --config webpack.config.js",
     "babel": "babel src -d views",
-    "build": "npm run pack && npm run babel"
+    "build": "yarn pack && yarn babel"
   },
   "dependencies": {
     "express": "^4.16.3",
