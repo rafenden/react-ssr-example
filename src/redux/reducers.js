@@ -1,6 +1,6 @@
 import { REQUEST_ACTIVITIES,  RECEIVE_ACTIVITIES } from './actions'
 
-function apps( state = {isFetching: false, apps: []}, action) {
+function activities( state = {isFetching: false, activities: []}, action) {
   switch (action.type) {
     case REQUEST_ACTIVITIES:
       return Object.assign({}, state, {
@@ -9,11 +9,11 @@ function apps( state = {isFetching: false, apps: []}, action) {
     case RECEIVE_ACTIVITIES:
       return Object.assign({}, state, {
         isFetching: false,
-        apps: action.apps
+        activities: action.activities
       })
     default:
       return state
   }
 }
 
-export default apps
+export default activities

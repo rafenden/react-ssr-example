@@ -33,7 +33,7 @@ function shouldFetchActivities(state) {
   }
 }
 
-export function fetchAppsIfNeeded() {
+export function fetchActivitiesIfNeeded() {
   return (dispatch, getState) => {
     if (shouldFetchActivities(getState())) {
       return dispatch(fetchActivities())

@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import { connect } from 'react-redux'
-import { fetchAppsIfNeeded } from '../redux/actions'
+import { fetchActivitiesIfNeeded } from '../redux/actions'
 
 import Activity from './Activity'
 
@@ -8,7 +8,7 @@ class App extends Component {
 
   componentDidMount() {
     const { dispatch } = this.props
-    dispatch(fetchAppsIfNeeded())
+    dispatch(fetchActivitiesIfNeeded())
   }
 
   render() {
